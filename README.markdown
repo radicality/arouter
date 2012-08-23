@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/radicality/arouter.png)](http://travis-ci.org/radicality/arouter)
 #ARouter
 ###Very simple router for node.js
 
