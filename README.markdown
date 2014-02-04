@@ -42,7 +42,7 @@ and then use them in it in the following way
 
 <pre>
 arouter = require('./arouter')
-arouter.router(routes,app)
+arouter.route(routes,app)
 </pre>
 
 where 'app' is the express app instance.
@@ -55,11 +55,11 @@ If you want to apply a piece (or multiple pieces) of middleware to all of your r
 
 <pre>
 arouter = require('./arouter')
-arouter.router(routes,app, Middleware1)
+arouter.route(routes,app, Middleware1)
 </pre>
 
 <pre>
 arouter = require('./arouter')
-arouter.router(routes,app, [Middleware1, Middleware2])
+arouter.route(routes,app, [Middleware1, Middleware2])
 </pre>
 
